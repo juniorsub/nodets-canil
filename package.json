@@ -1,0 +1,16 @@
+{
+  "name": "nodets-canil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon -e ts,json,mustache src/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/mustache-express": "^1.2.5",
+    "@types/node": "^22.7.5"
+  }
+}
